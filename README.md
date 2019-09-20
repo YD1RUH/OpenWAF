@@ -25,3 +25,12 @@ https://www.root25.com/2012/11/how-to-install-modsecurity-on-apache-ubuntu12-ste
 ## penjelasan
 beikut ini adalah konsep yang diterapkan pada OpenWAF
 ![Screenshot](Picture1.png)
+berikut ini adalan deskripsi topologi gambar diatas:
+- **WAF client** merupakan **point-point** sensor IPS yang tanamkan pada beberapa titik
+- output dari masing-masing dalam hal ini **error.log** akan dikirimkan ke **WAF Server** untuk kemudian di proses
+- proses pertama yang berjalan adalah **Data Cleaning**, adapun tahapan yang dilakukan yaitu:
+  1. mendapatkan **error.log** dari point
+  2. melakukan cleaning log menggunakan teknik **regex processing**
+  3. export hasil proses ke dalam bentuk **.csv** untuk kemudia di proses
+- pada bagian **Database Processing** file csv akan dimasukkan ke dalam database waf kemudian masuk ke table tampilan
+- **Visualisasi** dilakukan untuk memvisualisasikan database dengan memanfaatkan **php,html,css,javascript**
