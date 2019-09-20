@@ -24,4 +24,4 @@ https://www.root25.com/2012/11/how-to-install-modsecurity-on-apache-ubuntu12-ste
 
 ## penjelasan
 beikut ini adalah konsep yang diterapkan pada OpenWAF
-![alt text](https://github.com/5N4K3ID/OpenWAF/edit/master/Picture1.png)
+![Screenshot](Picture1.png)
