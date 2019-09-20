@@ -33,4 +33,4 @@ berikut ini adalan deskripsi topologi gambar diatas:
  b. melakukan cleaning log menggunakan teknik **regex processing**
  c. export hasil proses ke dalam bentuk **.csv** untuk kemudia di proses
 4. pada bagian **Database Processing** file csv akan dimasukkan ke dalam database waf kemudian masuk ke table tampilan
-5. **Visualisasi** dilakukan untuk memvisualisasikan database dengan memanfaatkan **php,html,css,javascript**
+5. **Visualisasi** dilakukan untuk memvisualisasikan database dengan memanfaatkan **php, html, css, dan javascript**
