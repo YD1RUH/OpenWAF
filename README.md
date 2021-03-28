@@ -23,9 +23,6 @@ https://www.root25.com/2012/11/how-to-install-modsecurity-on-apache-ubuntu12-ste
 5. untuk database login, buat database mysql **login** dan import **login.sql**.
 
 ## penjelasan
-beikut ini adalah konsep yang diterapkan pada OpenWAF
-![Screenshot](Picture1.png)
-berikut ini adalan deskripsi topologi gambar diatas:
 1. **WAF client** merupakan **point-point** sensor IPS yang tanamkan pada beberapa titik
 2. output dari masing-masing dalam hal ini **error.log** akan dikirimkan ke **WAF Server** untuk kemudian di proses
 3. proses pertama yang berjalan adalah **Data Cleaning**, adapun tahapan yang dilakukan yaitu:
